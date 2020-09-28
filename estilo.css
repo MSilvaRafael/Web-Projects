@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(Louise_Lake.jpg);
+    background-position: 50% 50%;
+    color: white;
+    font-family: sans-serif;
+}
+input {
+    display: block;
+    height: 40px;
+    width: 360px;
+    margin: 10px auto 10px auto;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.01);
+    color: white;
+    outline: none;
+}
+.form-login { 
+    width: 360px;
+    margin: 150px auto 0 auto;
+}
+.form-cad { 
+    width: 360px;
+    margin: 100px auto 0 auto;
+}
+.form-login h1, .form-cad h1 {
+    text-align: center;
+    padding: 20px
+}
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+input[type=submit] {
+    background-color: darkgray;
+    border: none;
+    cursor: pointer;
+}
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+:-ms-input-placeholder {  
+   color: white;  
+}
