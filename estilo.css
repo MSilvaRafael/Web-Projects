@@ -1,13 +1,18 @@
+/* Formatação padrão para todo o texto */
 * {
     margin: 0;
     padding: 0;
 }
+
+/* corpo do site */
 body {
     background-image: url(Louise_Lake.jpg);
     background-position: 50% 50%;
     color: white;
     font-family: sans-serif;
 }
+
+/* campo de login e senha */
 input {
     display: block;
     height: 40px;
