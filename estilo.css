@@ -29,6 +29,8 @@ input {
     width: 360px;
     margin: 150px auto 0 auto;
 }
+
+/* página de cadastro */
 .form-cad { 
     width: 360px;
     margin: 100px auto 0 auto;
@@ -37,6 +39,8 @@ input {
     text-align: center;
     padding: 20px
 }
+
+/* campos dos links de login e cadastro */
 a {
     display: block;
     text-align: center;
@@ -45,23 +49,24 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* botão de login e cadastro */
 input[type=submit] {
     background-color: darkgray;
     border: none;
     cursor: pointer;
 }
+
+/* campos de inserir as informações */
 ::-webkit-input-placeholder {
    color: white;
 }
-
 :-moz-placeholder { /* Firefox 18- */
    color: white;  
 }
-
 ::-moz-placeholder {  /* Firefox 19+ */
    color: white;  
 }
-
 :-ms-input-placeholder {  
    color: white;  
 }
